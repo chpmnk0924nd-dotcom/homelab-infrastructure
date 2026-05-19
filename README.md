@@ -272,3 +272,4 @@ homelab-infrastructure/
 │
 └── scripts/
 ```
+# homelab-infrastructure
