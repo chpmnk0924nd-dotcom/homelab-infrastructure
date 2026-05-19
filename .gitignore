@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# Sensitive files
+.ssh/
+credentials.json
+secrets.json
+config.local.yaml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS-specific
+.AppleDouble
+.LSOverride
+*.lnk
+
+# Temporary and cache files
+*.tmp
+*.bak
+*.log
+.cache/
+
+# Docker-related
+docker-compose.override.yml
+
+# Kubernetes
+kubeconfig
+.kubeconfig
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Node.js (if any scripts use node)
+node_modules/
+npm-debug.log*
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
