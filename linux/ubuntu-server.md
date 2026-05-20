@@ -253,3 +253,9 @@ Linux servers are also used for automation tasks including:
 - Automation
 - Log Analysis
 - Infrastructure Documentation
+
+## Linux Server Monitoring
+
+Real-time Linux monitoring using `btop` on the Kubernetes control plane node.
+
+![btop Monitoring](../diagrams/screenshots/linux-servers/btop-k3s-master.png)

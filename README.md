@@ -131,26 +131,6 @@ Proxmox
 
 ---
 
-## Screenshots
-
-### Grafana Monitoring
-
-Add Grafana dashboard screenshots here.
-
-### CrowdSec Security Monitoring
-
-Add CrowdSec dashboard screenshots here.
-
-### Kubernetes Monitoring
-
-Add Kubernetes dashboard screenshots here.
-
-### Keycloak Authentication
-
-Add Keycloak screenshots here.
-
----
-
 ## Technologies Used
 
 - Proxmox VE
