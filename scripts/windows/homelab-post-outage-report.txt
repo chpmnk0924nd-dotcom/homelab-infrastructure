@@ -1,0 +1,29 @@
+
+Name                                Target             Check      Status Notes                                         
+----                                ------             -----      ------ -----                                         
+Gateway / OPNsense                  192.168.10.1       Ping       PASS   Host responded to ping                        
+DC01 / DNS                          192.168.10.11      Ping       FAIL   No ping response                              
+Ubuntu Docker Host                  192.168.10.60      Ping       PASS   Host responded to ping                        
+DC01 DNS                            192.168.10.11:53   TCP Port   FAIL   Port is not reachable                         
+SSH Ubuntu Host                     192.168.10.60:22   TCP Port   PASS   Port is reachable                             
+Nginx Proxy Manager HTTP            192.168.10.60:80   TCP Port   PASS   Port is reachable                             
+Nginx Proxy Manager Admin           192.168.10.60:81   TCP Port   PASS   Port is reachable                             
+Nginx Proxy Manager HTTPS           192.168.10.60:443  TCP Port   PASS   Port is reachable                             
+Grafana Direct Port                 192.168.10.60:3002 TCP Port   FAIL   Port is not reachable                         
+Prometheus Direct Port              192.168.10.60:9091 TCP Port   FAIL   Port is not reachable                         
+Alertmanager Direct Port            192.168.10.60:9093 TCP Port   FAIL   Port is not reachable                         
+grafana.homelab.local               192.168.10.60      DNS        PASS   Resolved successfully                         
+prometheus.homelab.local            192.168.10.60      DNS        PASS   Resolved successfully                         
+alertmanager.homelab.local          192.168.10.60      DNS        PASS   Resolved successfully                         
+keycloak.homelab.local              192.168.10.60      DNS        PASS   Resolved successfully                         
+portainer.homelab.local             192.168.10.60      DNS        PASS   Resolved successfully                         
+uptime.homelab.local                192.168.10.60      DNS        PASS   Resolved successfully                         
+grafana.homelab.local via DC01      192.168.10.11      DNS Server FAIL   grafana.homelab.local : This operation retu...
+prometheus.homelab.local via DC01   192.168.10.11      DNS Server FAIL   prometheus.homelab.local : This operation r...
+alertmanager.homelab.local via DC01 192.168.10.11      DNS Server FAIL   alertmanager.homelab.local : This operation...
+keycloak.homelab.local via DC01     192.168.10.11      DNS Server FAIL   keycloak.homelab.local : This operation ret...
+portainer.homelab.local via DC01    192.168.10.11      DNS Server FAIL   portainer.homelab.local : This operation re...
+uptime.homelab.local via DC01       192.168.10.11      DNS Server FAIL   uptime.homelab.local : This operation retur...
+
+
+
